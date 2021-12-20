@@ -41,19 +41,21 @@ cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.x
 
 ### Mustafa Kemal Ataturk
 
-<img width="1332" alt="Screen Shot 2021-12-20 at 11 41 35" src="https://user-images.githubusercontent.com/29928837/146737945-8b1772f6-0f77-43a1-a39c-91e8d69bbc50.png">
+<img width="620" alt="Screen Shot 2021-12-20 at 20 13 23" src="https://user-images.githubusercontent.com/29928837/146806034-84c0c3d7-490a-4159-a831-3f5fb405342d.png">
 
 
 ### Osman Pamukoglu
 
-<img width="603" alt="Screen Shot 2021-12-20 at 11 32 24" src="https://user-images.githubusercontent.com/29928837/146736975-6fbfb813-6937-4ab3-9924-bb75aa1baa9a.png">
+<img width="301" alt="Screen Shot 2021-12-20 at 20 13 12" src="https://user-images.githubusercontent.com/29928837/146806088-17353b0f-4658-4a6d-a645-eaffc11be860.png">
+
 
 ### Nicola Tesla
 
-<img width="391" alt="Screen Shot 2021-12-20 at 11 37 50" src="https://user-images.githubusercontent.com/29928837/146737510-2eba6cd7-726e-4ce9-9445-87191fdbcfde.png">
+<img width="193" alt="Screen Shot 2021-12-20 at 20 11 38" src="https://user-images.githubusercontent.com/29928837/146806115-1564123d-bec1-4776-84ae-20d8459e88d7.png">
+
 
 ## Final Note
 
-It should be important to select high definition photos to avoid misrecognition.
+It should be important to select high definition photos to avoid misrecognition in Object Detection Algorithm method.
 
 
