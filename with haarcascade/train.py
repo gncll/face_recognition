@@ -5,7 +5,7 @@ import numpy as np
 
 people = ['Osman Pamukoglu', 'Benedict Cumberbatch', 'Nicola Tesla', 'Mustafa Kemal Ataturk']
 
-#List of all the people in the imgae.
+#List of all the people in the image.
 
 DIR = r'/Users/randyasfandy/PycharmProjects/FaceRecognition/PhotosTrain'
 
@@ -32,7 +32,7 @@ def create_train():
         path = os.path.join(DIR, person)
         label = people.index(person)
         
-        #Loop over every person in the people list, grab the path for this person, 
+        #Loop over every person in the people list, grab the path for this person.
 
         for img in os.listdir(path):
             img_path = os.path.join(path,img)
