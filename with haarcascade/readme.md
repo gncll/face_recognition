@@ -1,7 +1,7 @@
 
 # Face Recognition
 
-Developing a face recognition algorithm with using [haarcascade] (https://github.com/opencv/opencv/tree/master/data/haarcascades)
+Developing a face recognition algorithm with using [haarcascade](https://github.com/opencv/opencv/tree/master/data/haarcascades)
 
 ### Attention
 
