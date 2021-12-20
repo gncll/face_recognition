@@ -1,15 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 
 import os
-
 import cv2 as cv
-
-
 import numpy as np
 
 people = ['Osman Pamukoglu', 'Benedict Cumberbatch', 'Nicola Tesla', 'Mustafa Kemal Ataturk']
