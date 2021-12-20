@@ -11,7 +11,7 @@ Navneet Dalal and Bill Triggs study the question sets for robust visual object r
 
 ![hog method](https://user-images.githubusercontent.com/29928837/146803125-6376b88c-18ab-4ce7-b4a8-142399cf2cd1.png)
 
-[Picture](https://www.researchgate.net/figure/Extraction-Process-of-HOG-features-The-HOG-features-are-extracted-from-local-regions_fig2_221138890
+[Pictures ](https://www.researchgate.net/figure/Extraction-Process-of-HOG-features-The-HOG-features-are-extracted-from-local-regions_fig2_221138890)
 
 
 ## 2. Object Detection Method
