@@ -37,9 +37,11 @@ By this it can be differentiate between measurements and it can be tell that the
 
 ## Examples
 
+I open Web Camera and then show photos from my phone to camera.
+
 ### Bill Gates
 
-<img width="1459" alt="BillGates" src="https://user-images.githubusercontent.com/29928837/146178672-0cea1575-47bc-4f5a-8bee-40a771dda418.png">
+<img width="520" alt="Screen Shot 2021-12-20 at 16 21 39" src="https://user-images.githubusercontent.com/29928837/146773527-b14102ba-0f8f-440a-beb0-557eba5edfa2.png">
 
 ### Jack Ma
 
