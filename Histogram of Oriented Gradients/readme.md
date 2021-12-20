@@ -29,7 +29,6 @@ Draw a line between eyes to lips and the edge of human faces.
 
 128 Measurment Generated from an Image.
 
-
 ## Step 4 Find Person Name From The Encoding
 
 Applying machine learning classification algorithm.
@@ -38,6 +37,45 @@ By this it can be differentiate between measurements and it can be tell that the
 
 ## Examples
 
+### Bill Gates
+
 <img width="1459" alt="BillGates" src="https://user-images.githubusercontent.com/29928837/146178672-0cea1575-47bc-4f5a-8bee-40a771dda418.png">
+
+### Jack Ma
+
+<img width="450" alt="Screen Shot 2021-12-20 at 16 12 08" src="https://user-images.githubusercontent.com/29928837/146773055-720c0416-2de3-47b8-94aa-48ebd87d1184.png">
+
+
+
+## Face Comparisons
+
+### Elon Musk & Bill Gates
+
+<img width="719" alt="Screen Shot 2021-12-20 at 16 11 07" src="https://user-images.githubusercontent.com/29928837/146772407-08a906a1-8159-4e32-a12e-70356eea99ab.png">
+
+### Elon Musk & Elon Musk
+
+
+<img width="976" alt="Screen Shot 2021-12-20 at 16 11 21" src="https://user-images.githubusercontent.com/29928837/146772498-a6cbd4e1-d6d2-4ebc-8043-aa58250d5213.png">
+
+## Little Bit Fun 
+
+To surprise my beloved fiance ; 
+
+Bitanem means my only one in my language :)
+
+<img width="979" alt="Screen Shot 2021-12-20 at 16 11 50" src="https://user-images.githubusercontent.com/29928837/146772968-a09fe714-4e60-44b1-8624-9239d44fbc34.png">
+
+
+
+To depict my newly skill to my father :) 
+
+Babisko means daddy , who is my father.
+
+<img width="366" alt="Screen Shot 2021-12-20 at 16 10 33" src="https://user-images.githubusercontent.com/29928837/146772916-fa3df573-3b85-488d-b99a-9475f44dcc00.png">
+
+
+
+
 
 
