@@ -11,6 +11,6 @@ Navneet Dalal and Bill Triggs study the question sets for robust visual object r
 
 ## 2. Object Detection Method
 
-[The algorithm uses edge or line detection features which created by Paul Viola & Michael Jones in the research paper](https://ieeexplore.ieee.org/document/990517)
+The algorithm uses edge or line detection features which created by Paul Viola & Michael Jones [in the research paper](https://ieeexplore.ieee.org/document/990517)
 
 
