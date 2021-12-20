@@ -8,9 +8,14 @@ To find faces in an image, we will look at every single pixel in an image one at
 
 Main goal is to find out which direction the image is getting darker, and then draw an arrow to that pixel.
 
-![hog-feature](https://user-images.githubusercontent.com/29928837/146768096-3906af5e-1725-473c-be99-a881be3c2e45.jpeg)
+When you repeat that action for every single pixel in the image, you will see that every pixel being replaced by an arrow. 
+
+These arrows are gradients.
+
+They show the flow from light to dark in an image.
 
 
+<img width="726" alt="Screen Shot 2021-12-20 at 15 39 11" src="https://user-images.githubusercontent.com/29928837/146768486-b2474009-5a18-4c6b-a569-e4996306f37a.png">
 
 
 
