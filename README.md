@@ -5,8 +5,8 @@
 Developing a face recognition algorithm with using OpenCV, face_recognition and dlib.
 I used 2 different way to develop a face recognition algorithms.
 
-# 1. With Face Recognition Library
+## HOG(Histogram of Gradient) 
 
-# 2. With haarcascade.xml
+## Object Detection Method
 
 
