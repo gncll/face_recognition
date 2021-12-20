@@ -5,8 +5,8 @@ Developing a face recognition algorithm with using [haarcascade](https://github.
 
 ### Attention
 
-When using haarcascade with opencv to face, it is vital to load opencv_contrib_python library to be able to use 'face.LBPHFaceRecognizer_create'.
-Because opencv_python library does not include 'face.LBPHFaceRecognizer_create'.
+When using haarcascade with opencv to face, it is vital to load [opencv_contrib_python](https://pypi.org/project/opencv-contrib-python/) library to be able to use 'face.LBPHFaceRecognizer_create'.
+Because [opencv_python](https://pypi.org/project/opencv-python/) library does not include 'face.LBPHFaceRecognizer_create'.
 
 ## Examples
 
