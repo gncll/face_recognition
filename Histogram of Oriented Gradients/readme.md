@@ -17,8 +17,6 @@ They show the flow from light to dark [in an image.](https://iq.opengenus.org/ob
 
 <img width="726" alt="Screen Shot 2021-12-20 at 15 39 11" src="https://user-images.githubusercontent.com/29928837/146768486-b2474009-5a18-4c6b-a569-e4996306f37a.png">
 
-## Step by Step
-
 ## Step 1 Finding The Faces
 
 Locating eyes, chin etc.
