@@ -19,7 +19,7 @@ Because [opencv_python](https://pypi.org/project/opencv-python/) library does no
 
 ## Train-Test
 
-Please create two folder in your working directory, first algorithm will train and then test it according to the result of train.
+Please create two folder with pictures in your working directory, first algorithm will train and then test it according to the result of train.
 
 ## Loading haarcascade
 
