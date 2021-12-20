@@ -1,5 +1,6 @@
 
-# face_recognition
+# Hog Method
+
 Developing a face recognition algorithm with using OpenCV, face_recognition and dlib.
 
 # Examples
