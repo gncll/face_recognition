@@ -6,6 +6,7 @@ Developing a face recognition algorithm with using [haarcascade](https://github.
 ## Haarcascade
 
 Haarcascade is an Object Detection Algorithm used to identify faces in an image or video. 
+
 The algorithm uses edge or line detection features which created by Paul Viola & Michael Jones in the research paper [Rapid Object Detection using a Boosted Cascade of Simple Features](https://ieeexplore.ieee.org/document/990517)
 
 
