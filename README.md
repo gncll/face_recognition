@@ -5,4 +5,8 @@
 Developing a face recognition algorithm with using OpenCV, face_recognition and dlib.
 I used 2 different way to develop a face recognition algorithms.
 
+# 1. With Face Recognition Library
+
+# 2. With haarcascade.xml
+
 
