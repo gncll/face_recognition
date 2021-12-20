@@ -12,7 +12,8 @@ Because opencv_python library does not include 'face.LBPHFaceRecognizer_create'.
 
 ### Mustafa Kemal Ataturk
 
-<img width="1680" alt="Screen Shot 2021-12-20 at 08 50 28" src="https://user-images.githubusercontent.com/29928837/146718210-ef6c3055-2c20-4aed-b91c-08aa14fed62a.png">
+<img width="1332" alt="Screen Shot 2021-12-20 at 11 41 35" src="https://user-images.githubusercontent.com/29928837/146737945-8b1772f6-0f77-43a1-a39c-91e8d69bbc50.png">
+
 
 ### Osman Pamukoglu
 
