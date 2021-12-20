@@ -10,7 +10,7 @@ Haarcascade is an Object Detection Algorithm used to identify faces in an image 
 The algorithm uses edge or line detection features which created by Paul Viola & Michael Jones in the research paper [Rapid Object Detection using a Boosted Cascade of Simple Features](https://ieeexplore.ieee.org/document/990517)
 
 
-## OpenCv Version Check
+## Version Check
 
 When using haarcascade with opencv to face, it is vital to load [opencv_contrib_python](https://pypi.org/project/opencv-contrib-python/) library to be able to use [face.LBPHFaceRecognizer_create](https://docs.opencv.org/3.4/df/d25/classcv_1_1face_1_1LBPHFaceRecognizer.html).
 
@@ -51,5 +51,8 @@ cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.x
 
 <img width="391" alt="Screen Shot 2021-12-20 at 11 37 50" src="https://user-images.githubusercontent.com/29928837/146737510-2eba6cd7-726e-4ce9-9445-87191fdbcfde.png">
 
+## Final Note
+
+It should be important to select high definition photos to avoid misrecognition.
 
 
