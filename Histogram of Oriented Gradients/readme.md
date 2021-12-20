@@ -12,7 +12,7 @@ When you repeat that action for every single pixel in the image, you will see th
 
 These arrows are gradients.
 
-They show the flow from light to dark in an image.
+They show the flow from light to dark [in an image.](https://iq.opengenus.org/object-detection-with-histogram-of-oriented-gradients-hog/)
 
 
 <img width="726" alt="Screen Shot 2021-12-20 at 15 39 11" src="https://user-images.githubusercontent.com/29928837/146768486-b2474009-5a18-4c6b-a569-e4996306f37a.png">
