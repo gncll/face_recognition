@@ -91,12 +91,14 @@ cv2.waitKey(0)
 
 ## Step 3 Encoding Faces
 
-128 Measurment Generated from an Image.
+128 Measurements Generated from an Image.
 
 ## Step 4 Find Person Name From The Encoding
 
-Applying machine learning classification algorithm.
+Applying machine learning classification algorithm between those measurements.
+
 I use SVM.(Support Vector Machine)
+
 By this it can be differentiate between measurements and it can be tell that the measurements are of the given person or not.
 
 ## Examples
