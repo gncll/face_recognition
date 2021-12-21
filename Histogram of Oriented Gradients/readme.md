@@ -18,8 +18,30 @@ They show the flow from light to dark [in an image.](https://iq.opengenus.org/ob
 
 ## Step 1 Finding The Faces
 
-Locating eyes, chin etc.
+Locating edges of the face
 
+<img width="445" alt="Screen Shot 2021-12-21 at 16 41 47" src="https://user-images.githubusercontent.com/29928837/146939774-6d16e923-332e-494b-87ce-fd1baee49cf1.png">
+
+```python
+import cv2
+
+import dlib
+
+img = cv2.imread('/Users/randyasfandy/Desktop/nicole.jpeg')
+
+detector = dlib.get_frontal_face_detector()
+imggray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+faces = detector(imggray)
+
+for face in faces :
+    x1,y1 = face.left(), face.top()
+    x2,y2 = face.right(), face.bottom()
+    img = cv2.rectangle(img, (x1,y1), (x2,y2), (0,255,0), 3)
+
+cv2.imshow("Original", img)
+cv2.waitKey(0)
+
+```
 ## Step 2 Find the Facial Landmark
 
 Draw a line between eyes to lips and the edge of human faces.
@@ -33,8 +55,6 @@ Sample of finding facial landmarks
 #Finding facial landmarks in dlib
 
 import cv2
-
-import numpy as np
 
 import dlib
 
