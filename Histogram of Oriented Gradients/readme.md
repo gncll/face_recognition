@@ -22,7 +22,6 @@ They show the flow from light to dark [in an image.](https://iq.opengenus.org/ob
 
 ![hog8](https://user-images.githubusercontent.com/29928837/146944652-c65b4bc0-7107-4135-ae0c-a6bc9b40d70e.png)
 
-#Hog From Pictures
 
 ```python
 
