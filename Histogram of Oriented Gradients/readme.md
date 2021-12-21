@@ -51,13 +51,16 @@ Draw a line between eyes to lips and the edge of human faces.
 
 Sample of finding facial landmarks
 
-<img width="446" alt="Screen Shot 2021-12-21 at 16 34 27" src="https://user-images.githubusercontent.com/29928837/146938705-c6576874-950e-4a66-9f86-bfe04bfa63e9.png">
+<img width="439" alt="Screen Shot 2021-12-21 at 16 52 01" src="https://user-images.githubusercontent.com/29928837/146941123-42890b32-9dd2-4127-9a12-cd111d22b896.png">
+
 
 ```python
 
 #Finding facial landmarks in dlib
 
 import cv2
+
+import numpy as np
 
 import dlib
 
@@ -72,7 +75,6 @@ faces = detector(imggray)
 for face in faces :
     x1,y1 = face.left(), face.top()
     x2,y2 = face.right(), face.bottom()
-    img = cv2.rectangle(img, (x1,y1), (x2,y2), (0,255,0), 3)
     landmarks = predictor(imggray, face)
     for n in range(68):
         x = landmarks.part(n).x
