@@ -18,11 +18,14 @@ They show the flow from light to dark [in an image.](https://iq.opengenus.org/ob
 
 ## Step 1 Finding The Faces
 
-Locating edges of the face
+Locating the face
 
 <img width="445" alt="Screen Shot 2021-12-21 at 16 41 47" src="https://user-images.githubusercontent.com/29928837/146939774-6d16e923-332e-494b-87ce-fd1baee49cf1.png">
 
 ```python
+
+#Sample codes of locating face
+
 import cv2
 
 import dlib
