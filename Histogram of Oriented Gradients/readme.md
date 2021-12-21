@@ -24,13 +24,13 @@ Locating the face
 
 ```python
 
-#Sample codes of locating face
+# Finding face in defined path
 
 import cv2
-
 import dlib
 
-img = cv2.imread('/Users/randyasfandy/Desktop/nicole.jpeg')
+path = '/Users/randyasfandy/Desktop/face detection/nicole.jpeg'
+img = cv2.imread(path)
 
 detector = dlib.get_frontal_face_detector()
 imggray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
