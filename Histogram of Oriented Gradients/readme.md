@@ -141,6 +141,7 @@ cv2.waitKey(0)
 
 ![IMG_8946](https://user-images.githubusercontent.com/29928837/146953793-5d381b5d-4614-4417-921d-5409a8b2b07e.JPG)
 
+
 [Photos Credit](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
 
 Applying machine learning classification algorithm between those measurements.
