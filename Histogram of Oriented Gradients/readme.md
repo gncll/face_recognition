@@ -24,12 +24,13 @@ Locating eyes, chin etc.
 
 Draw a line between eyes to lips and the edge of human faces.
 
-Sample of finding facila landmarks
+Sample of finding facial landmarks
 
 <img width="446" alt="Screen Shot 2021-12-21 at 16 34 27" src="https://user-images.githubusercontent.com/29928837/146938705-c6576874-950e-4a66-9f86-bfe04bfa63e9.png">
 
 ```python
 
+#Finding facial landmarks in dlib
 
 import cv2
 
