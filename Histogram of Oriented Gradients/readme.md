@@ -22,6 +22,37 @@ They show the flow from light to dark [in an image.](https://iq.opengenus.org/ob
 
 ![hog8](https://user-images.githubusercontent.com/29928837/146944652-c65b4bc0-7107-4135-ae0c-a6bc9b40d70e.png)
 
+#Hog From Pictures
+
+```python
+
+from matplotlib import pyplot as plt
+from skimage.feature import hog
+from skimage import exposure
+import cv2
+
+
+
+image = cv2.imread('/Users/randyasfandy/Desktop/face detection/nicole.jpeg')
+fd, hog_image = hog(image, orientations=8, pixels_per_cell=(1000, 500),
+                    cells_per_block=(1, 1), visualize=True, multichannel=True)
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(8, 4), sharex=True, sharey=True)
+
+ax1.axis('off')
+ax1.imshow(image, cmap=plt.cm.gray)
+ax1.set_title('Original image')
+
+```
+
+# Rescale histogram for better display
+hog_image_rescaled = exposure.rescale_intensity(hog_image, in_range=(0, 10))
+
+ax2.axis('off')
+ax2.imshow(hog_image_rescaled, cmap=plt.cm.gray)
+ax2.set_title('HOG')
+plt.savefig('hog10.png')
+
 
 ## Step 1 Finding The Faces
 
