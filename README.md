@@ -9,7 +9,37 @@ Developing a face recognition algorithm in two famous methods.
 Navneet Dalal and Bill Triggs study the question sets for robust visual object recognition, adopting linear SVM based human detection as a test case.The show experimentally that grids of Histograms of Oriented Gradient (HOG) descriptors significantly outperform existing feature sets for human detection.
 [HOG](http://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
 
-![hog method](https://user-images.githubusercontent.com/29928837/146803125-6376b88c-18ab-4ce7-b4a8-142399cf2cd1.png)
+![hog7](https://user-images.githubusercontent.com/29928837/146932969-d9f36742-7e5d-4344-abd9-059a8b0659dc.png)
+
+To turn your photo to Hog image
+
+```python
+from matplotlib import pyplot as plt
+from skimage.feature import hog
+from skimage import exposure
+import cv2
+
+
+image = cv2.imread('/Users/randyasfandy/Downloads/Adsız tasarım.png')
+fd, hog_image = hog(image, orientations=8, pixels_per_cell=(100, 100),
+                    cells_per_block=(1, 1), visualize=True, multichannel=True)
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(8, 4), sharex=True, sharey=True)
+
+ax1.axis('off')
+ax1.imshow(image, cmap=plt.cm.gray)
+ax1.set_title('Original image')
+
+# Rescale histogram for better display
+hog_image_rescaled = exposure.rescale_intensity(hog_image, in_range=(0, 10))
+
+ax2.axis('off')
+ax2.imshow(hog_image_rescaled, cmap=plt.cm.gray)
+ax2.set_title('HOG')
+plt.savefig('hog7.png')
+
+```
+
 
 [Picture from](https://www.researchgate.net/figure/Extraction-Process-of-HOG-features-The-HOG-features-are-extracted-from-local-regions_fig2_221138890)
 
