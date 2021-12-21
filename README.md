@@ -41,8 +41,6 @@ plt.savefig('hog7.png')
 ```
 
 
-[Picture from](https://www.researchgate.net/figure/Extraction-Process-of-HOG-features-The-HOG-features-are-extracted-from-local-regions_fig2_221138890)
-
 
 ## 2. Object Detection Method
 
