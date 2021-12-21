@@ -2,7 +2,7 @@
 
 
 # Face Recognition
-Developing a face recognition algorithm with two method.
+Developing a face recognition algorithm in two famous methods.
 
 ## 1. HOG(Histogram of Gradient) 
 
