@@ -130,10 +130,11 @@ cv2.waitKey(0)
 
 ![IMG_8945](https://user-images.githubusercontent.com/29928837/146953485-753bcad4-c729-4949-be9c-798e49ba0bbe.JPG)
 
-[Photos Credit]https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78
+
+[Photos Credit](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
 
 
-128 Measurements Generated from an Image.
+128 Measurements that Generated from an Image.
 
 
 
