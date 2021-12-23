@@ -42,9 +42,9 @@ ax1.axis('off')
 ax1.imshow(image, cmap=plt.cm.gray)
 ax1.set_title('Original image')
 
-```
 
 # Rescale histogram for better display
+
 hog_image_rescaled = exposure.rescale_intensity(hog_image, in_range=(0, 10))
 
 ax2.axis('off')
@@ -52,6 +52,7 @@ ax2.imshow(hog_image_rescaled, cmap=plt.cm.gray)
 ax2.set_title('HOG')
 plt.savefig('hog10.png')
 
+```
 
 ## Step 1 Finding The Faces
 
