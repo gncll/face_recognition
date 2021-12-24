@@ -123,7 +123,6 @@ for face in faces :
 cv2.imshow("Original", img)
 cv2.waitKey(0)
 
-
 ```
 
 <img width="659" alt="Screen Shot 2021-12-24 at 09 25 48" src="https://user-images.githubusercontent.com/29928837/147324846-774db7e5-a116-43fe-b2db-3e28403e5be6.png">
@@ -159,18 +158,10 @@ for face_landmarks in face_landmarks_list:
 # Show the picture
 pil_image.show()
 
-
-
-
-
-
-
-
-
 ```
 
 
-
+[Also you can find the codes here](https://github.com/ageitgey/face_recognition/blob/master/examples/find_facial_features_in_picture.py)
 
 ## Step 3 Encoding Faces
 
