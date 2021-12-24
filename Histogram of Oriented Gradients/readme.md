@@ -126,6 +126,51 @@ cv2.waitKey(0)
 
 ```
 
+<img width="659" alt="Screen Shot 2021-12-24 at 09 25 48" src="https://user-images.githubusercontent.com/29928837/147324846-774db7e5-a116-43fe-b2db-3e28403e5be6.png">
+
+```python
+
+
+import face_recognition
+
+from PIL import Image, ImageDraw
+img = face_recognition.load_image_file('/Users/randyasfandy/Desktop/face detection/nicole.jpeg')
+
+
+faceLoc = face_recognition.face_locations(img)[0]
+
+face_landmarks_list = face_recognition.face_landmarks(img)
+
+pil_image = Image.fromarray(img)
+
+d= ImageDraw.Draw(pil_image)
+
+
+for face_landmarks in face_landmarks_list:
+
+    # Print the location of each facial feature in this image
+    for facial_feature in face_landmarks.keys():
+        print("The {} in this face has the following points: {}".format(facial_feature, face_landmarks[facial_feature]))
+
+    # Let's trace out each facial feature in the image with a line!
+    for facial_feature in face_landmarks.keys():
+        d.line(face_landmarks[facial_feature], width=5)
+
+# Show the picture
+pil_image.show()
+
+
+
+
+
+
+
+
+
+```
+
+
+
 
 ## Step 3 Encoding Faces
 
