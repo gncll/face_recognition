@@ -11,7 +11,7 @@ Navneet Dalal and Bill Triggs study the question sets for robust visual object r
 
 ![hog7](https://user-images.githubusercontent.com/29928837/146932969-d9f36742-7e5d-4344-abd9-059a8b0659dc.png)
 
-To turn your photo to Hog image
+To turn your photo to Hog image;
 
 ```python
 from matplotlib import pyplot as plt
