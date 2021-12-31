@@ -9,7 +9,7 @@ To find faces in an image, we will look at every single pixel in an image one at
 The main goal is to find out which direction the image is getting darker, and then draw an arrow to that pixel.
 
 When you repeat that action for every single pixel in the image, you will see that every pixel is being replaced by an arrow.
-These arrows are gradients.
+These arrows are "gradients".
 
 They show the flow from light to dark [in an image.](https://iq.opengenus.org/object-detection-with-histogram-of-oriented-gradients-hog/)
 
